@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		139C6D4C1ADDDDB0001FEFA2 /* AdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139C6D3C1ADDDDB0001FEFA2 /* AdColony.framework */; };
+		139C6D4D1ADDDDB0001FEFA2 /* BDArenaConnector.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 139C6D3D1ADDDDB0001FEFA2 /* BDArenaConnector.bundle */; };
+		139C6D4E1ADDDDB0001FEFA2 /* BDArenaConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139C6D3E1ADDDDB0001FEFA2 /* BDArenaConnector.framework */; };
+		139C6D4F1ADDDDB0001FEFA2 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139C6D3F1ADDDDB0001FEFA2 /* Chartboost.framework */; };
+		139C6D501ADDDDB0001FEFA2 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139C6D401ADDDDB0001FEFA2 /* GoogleMobileAds.framework */; };
+		139C6D511ADDDDB0001FEFA2 /* UnityAds.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 139C6D411ADDDDB0001FEFA2 /* UnityAds.bundle */; };
+		139C6D521ADDDDB0001FEFA2 /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139C6D421ADDDDB0001FEFA2 /* UnityAds.framework */; };
+		139C6D531ADDDDB0001FEFA2 /* __vungle.db in Resources */ = {isa = PBXBuildFile; fileRef = 139C6D451ADDDDB0001FEFA2 /* __vungle.db */; };
+		139C6D541ADDDDB0001FEFA2 /* vg_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 139C6D461ADDDDB0001FEFA2 /* vg_close.png */; };
+		139C6D551ADDDDB0001FEFA2 /* vg_cta.png in Resources */ = {isa = PBXBuildFile; fileRef = 139C6D471ADDDDB0001FEFA2 /* vg_cta.png */; };
+		139C6D561ADDDDB0001FEFA2 /* vg_mute_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 139C6D481ADDDDB0001FEFA2 /* vg_mute_off.png */; };
+		139C6D571ADDDDB0001FEFA2 /* vg_mute_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 139C6D491ADDDDB0001FEFA2 /* vg_mute_on.png */; };
+		139C6D581ADDDDB0001FEFA2 /* vg_timer.png in Resources */ = {isa = PBXBuildFile; fileRef = 139C6D4A1ADDDDB0001FEFA2 /* vg_timer.png */; };
+		139C6D591ADDDDB0001FEFA2 /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139C6D4B1ADDDDB0001FEFA2 /* VungleSDK.framework */; };
+		962E3FA61BA2E39A0059144A /* Supersonic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962E3FA51BA2E39A0059144A /* Supersonic.framework */; };
+		963994BB1BA2CD0200FE5731 /* MIAChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 963994B81BA2CD0200FE5731 /* MIAChatViewController.m */; };
+		963994BC1BA2CD0200FE5731 /* MIAImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 963994BA1BA2CD0200FE5731 /* MIAImageViewController.m */; };
+		966A1AE41BA2D2D800CA031A /* UIImageView+MIASDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 966A1AE31BA2D2D800CA031A /* UIImageView+MIASDK.m */; };
+		96A34B7A1BB5872D00728E85 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A34B791BB5872D00728E85 /* Social.framework */; };
+		96A34B7C1BB5873900728E85 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A34B7B1BB5873900728E85 /* ImageIO.framework */; };
+		96A34B7E1BB5874700728E85 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A34B7D1BB5874700728E85 /* MobileCoreServices.framework */; };
+		EA9B0E5C1ACD848700B176D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B0E5B1ACD848700B176D6 /* main.m */; };
+		EA9B0E5F1ACD848700B176D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B0E5E1ACD848700B176D6 /* AppDelegate.m */; };
+		EA9B0E651ACD848700B176D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9B0E631ACD848700B176D6 /* Main.storyboard */; };
+		EA9B0E671ACD848700B176D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA9B0E661ACD848700B176D6 /* Images.xcassets */; };
+		EA9B0E6A1ACD848700B176D6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B0E681ACD848700B176D6 /* LaunchScreen.xib */; };
+		EAACC9271ACEC584006400DA /* mkApp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EAACC9251ACEC584006400DA /* mkApp.bundle */; };
+		EAACC9281ACEC584006400DA /* mkApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAACC9261ACEC584006400DA /* mkApp.framework */; };
+		EAACC9701ACEDF36006400DA /* MKCollection+Subscription.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC96F1ACEDF36006400DA /* MKCollection+Subscription.m */; };
+		EAACC9731ACEE0F9006400DA /* MIAChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC9721ACEE0F9006400DA /* MIAChatTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA9B0E701ACD848700B176D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA9B0E4E1ACD848700B176D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA9B0E551ACD848700B176D6;
+			remoteInfo = Droidcon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		139C6D3C1ADDDDB0001FEFA2 /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdColony.framework; sourceTree = "<group>"; };
+		139C6D3D1ADDDDB0001FEFA2 /* BDArenaConnector.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BDArenaConnector.bundle; sourceTree = "<group>"; };
+		139C6D3E1ADDDDB0001FEFA2 /* BDArenaConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BDArenaConnector.framework; sourceTree = "<group>"; };
+		139C6D3F1ADDDDB0001FEFA2 /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Chartboost.framework; sourceTree = "<group>"; };
+		139C6D401ADDDDB0001FEFA2 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		139C6D411ADDDDB0001FEFA2 /* UnityAds.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UnityAds.bundle; sourceTree = "<group>"; };
+		139C6D421ADDDDB0001FEFA2 /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
+		139C6D451ADDDDB0001FEFA2 /* __vungle.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = __vungle.db; sourceTree = "<group>"; };
+		139C6D461ADDDDB0001FEFA2 /* vg_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_close.png; sourceTree = "<group>"; };
+		139C6D471ADDDDB0001FEFA2 /* vg_cta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_cta.png; sourceTree = "<group>"; };
+		139C6D481ADDDDB0001FEFA2 /* vg_mute_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_off.png; sourceTree = "<group>"; };
+		139C6D491ADDDDB0001FEFA2 /* vg_mute_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_on.png; sourceTree = "<group>"; };
+		139C6D4A1ADDDDB0001FEFA2 /* vg_timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_timer.png; sourceTree = "<group>"; };
+		139C6D4B1ADDDDB0001FEFA2 /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = "<group>"; };
+		962E3FA51BA2E39A0059144A /* Supersonic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Supersonic.framework; sourceTree = "<group>"; };
+		963994B71BA2CD0200FE5731 /* MIAChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIAChatViewController.h; sourceTree = "<group>"; };
+		963994B81BA2CD0200FE5731 /* MIAChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIAChatViewController.m; sourceTree = "<group>"; };
+		963994B91BA2CD0200FE5731 /* MIAImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIAImageViewController.h; sourceTree = "<group>"; };
+		963994BA1BA2CD0200FE5731 /* MIAImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIAImageViewController.m; sourceTree = "<group>"; };
+		966A1AE21BA2D2D800CA031A /* UIImageView+MIASDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MIASDK.h"; sourceTree = "<group>"; };
+		966A1AE31BA2D2D800CA031A /* UIImageView+MIASDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MIASDK.m"; sourceTree = "<group>"; };
+		96A34B791BB5872D00728E85 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		96A34B7B1BB5873900728E85 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		96A34B7D1BB5874700728E85 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EA9B0E561ACD848700B176D6 /* MIAChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MIAChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9B0E5A1ACD848700B176D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA9B0E5B1ACD848700B176D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA9B0E5D1ACD848700B176D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA9B0E5E1ACD848700B176D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA9B0E641ACD848700B176D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA9B0E661ACD848700B176D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA9B0E691ACD848700B176D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EA9B0E6F1ACD848700B176D6 /* MIAChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MIAChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9B0E741ACD848700B176D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAACC9251ACEC584006400DA /* mkApp.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mkApp.bundle; sourceTree = "<group>"; };
+		EAACC9261ACEC584006400DA /* mkApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mkApp.framework; sourceTree = "<group>"; };
+		EAACC96E1ACEDF36006400DA /* MKCollection+Subscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKCollection+Subscription.h"; sourceTree = "<group>"; };
+		EAACC96F1ACEDF36006400DA /* MKCollection+Subscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKCollection+Subscription.m"; sourceTree = "<group>"; };
+		EAACC9711ACEE0F9006400DA /* MIAChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIAChatTableViewCell.h; sourceTree = "<group>"; };
+		EAACC9721ACEE0F9006400DA /* MIAChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIAChatTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA9B0E531ACD848700B176D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAACC9281ACEC584006400DA /* mkApp.framework in Frameworks */,
+				139C6D4C1ADDDDB0001FEFA2 /* AdColony.framework in Frameworks */,
+				139C6D4E1ADDDDB0001FEFA2 /* BDArenaConnector.framework in Frameworks */,
+				139C6D4F1ADDDDB0001FEFA2 /* Chartboost.framework in Frameworks */,
+				139C6D501ADDDDB0001FEFA2 /* GoogleMobileAds.framework in Frameworks */,
+				962E3FA61BA2E39A0059144A /* Supersonic.framework in Frameworks */,
+				139C6D521ADDDDB0001FEFA2 /* UnityAds.framework in Frameworks */,
+				139C6D591ADDDDB0001FEFA2 /* VungleSDK.framework in Frameworks */,
+				96A34B7C1BB5873900728E85 /* ImageIO.framework in Frameworks */,
+				96A34B7E1BB5874700728E85 /* MobileCoreServices.framework in Frameworks */,
+				96A34B7A1BB5872D00728E85 /* Social.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9B0E6C1ACD848700B176D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		139C6D3B1ADDDDB0001FEFA2 /* advLib */ = {
+			isa = PBXGroup;
+			children = (
+				139C6D3C1ADDDDB0001FEFA2 /* AdColony.framework */,
+				139C6D3D1ADDDDB0001FEFA2 /* BDArenaConnector.bundle */,
+				139C6D3E1ADDDDB0001FEFA2 /* BDArenaConnector.framework */,
+				139C6D3F1ADDDDB0001FEFA2 /* Chartboost.framework */,
+				139C6D401ADDDDB0001FEFA2 /* GoogleMobileAds.framework */,
+				139C6D411ADDDDB0001FEFA2 /* UnityAds.bundle */,
+				139C6D421ADDDDB0001FEFA2 /* UnityAds.framework */,
+				962E3FA51BA2E39A0059144A /* Supersonic.framework */,
+				139C6D431ADDDDB0001FEFA2 /* VungleSDK.embeddedframework */,
+			);
+			path = advLib;
+			sourceTree = "<group>";
+		};
+		139C6D431ADDDDB0001FEFA2 /* VungleSDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				139C6D441ADDDDB0001FEFA2 /* Resources */,
+				139C6D4B1ADDDDB0001FEFA2 /* VungleSDK.framework */,
+			);
+			path = VungleSDK.embeddedframework;
+			sourceTree = "<group>";
+		};
+		139C6D441ADDDDB0001FEFA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				139C6D451ADDDDB0001FEFA2 /* __vungle.db */,
+				139C6D461ADDDDB0001FEFA2 /* vg_close.png */,
+				139C6D471ADDDDB0001FEFA2 /* vg_cta.png */,
+				139C6D481ADDDDB0001FEFA2 /* vg_mute_off.png */,
+				139C6D491ADDDDB0001FEFA2 /* vg_mute_on.png */,
+				139C6D4A1ADDDDB0001FEFA2 /* vg_timer.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EA9B0E4D1ACD848700B176D6 = {
+			isa = PBXGroup;
+			children = (
+				EA9B0E581ACD848700B176D6 /* MIAChat */,
+				EA9B0E721ACD848700B176D6 /* MIAChatTests */,
+				EAACC9241ACEC474006400DA /* Frameworks */,
+				EA9B0E571ACD848700B176D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA9B0E571ACD848700B176D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B0E561ACD848700B176D6 /* MIAChat.app */,
+				EA9B0E6F1ACD848700B176D6 /* MIAChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA9B0E581ACD848700B176D6 /* MIAChat */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B0E5D1ACD848700B176D6 /* AppDelegate.h */,
+				EA9B0E5E1ACD848700B176D6 /* AppDelegate.m */,
+				EAACC9711ACEE0F9006400DA /* MIAChatTableViewCell.h */,
+				EAACC9721ACEE0F9006400DA /* MIAChatTableViewCell.m */,
+				963994B71BA2CD0200FE5731 /* MIAChatViewController.h */,
+				963994B81BA2CD0200FE5731 /* MIAChatViewController.m */,
+				963994B91BA2CD0200FE5731 /* MIAImageViewController.h */,
+				963994BA1BA2CD0200FE5731 /* MIAImageViewController.m */,
+				966A1AE21BA2D2D800CA031A /* UIImageView+MIASDK.h */,
+				966A1AE31BA2D2D800CA031A /* UIImageView+MIASDK.m */,
+				EA9B0E631ACD848700B176D6 /* Main.storyboard */,
+				EA9B0E661ACD848700B176D6 /* Images.xcassets */,
+				EA9B0E591ACD848700B176D6 /* Supporting Files */,
+			);
+			path = MIAChat;
+			sourceTree = "<group>";
+		};
+		EA9B0E591ACD848700B176D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B0E5A1ACD848700B176D6 /* Info.plist */,
+				EA9B0E5B1ACD848700B176D6 /* main.m */,
+				EA9B0E681ACD848700B176D6 /* LaunchScreen.xib */,
+				EAACC96E1ACEDF36006400DA /* MKCollection+Subscription.h */,
+				EAACC96F1ACEDF36006400DA /* MKCollection+Subscription.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA9B0E721ACD848700B176D6 /* MIAChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B0E731ACD848700B176D6 /* Supporting Files */,
+			);
+			path = MIAChatTests;
+			sourceTree = "<group>";
+		};
+		EA9B0E731ACD848700B176D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B0E741ACD848700B176D6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAACC9241ACEC474006400DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				139C6D3B1ADDDDB0001FEFA2 /* advLib */,
+				EAACC9251ACEC584006400DA /* mkApp.bundle */,
+				EAACC9261ACEC584006400DA /* mkApp.framework */,
+				96A34B7B1BB5873900728E85 /* ImageIO.framework */,
+				96A34B791BB5872D00728E85 /* Social.framework */,
+				96A34B7D1BB5874700728E85 /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA9B0E551ACD848700B176D6 /* MIAChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9B0E791ACD848700B176D6 /* Build configuration list for PBXNativeTarget "MIAChat" */;
+			buildPhases = (
+				EA9B0E521ACD848700B176D6 /* Sources */,
+				EA9B0E531ACD848700B176D6 /* Frameworks */,
+				EA9B0E541ACD848700B176D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MIAChat;
+			productName = Droidcon;
+			productReference = EA9B0E561ACD848700B176D6 /* MIAChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA9B0E6E1ACD848700B176D6 /* MIAChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9B0E7C1ACD848700B176D6 /* Build configuration list for PBXNativeTarget "MIAChatTests" */;
+			buildPhases = (
+				EA9B0E6B1ACD848700B176D6 /* Sources */,
+				EA9B0E6C1ACD848700B176D6 /* Frameworks */,
+				EA9B0E6D1ACD848700B176D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA9B0E711ACD848700B176D6 /* PBXTargetDependency */,
+			);
+			name = MIAChatTests;
+			productName = DroidconTests;
+			productReference = EA9B0E6F1ACD848700B176D6 /* MIAChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA9B0E4E1ACD848700B176D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "MIA Srl";
+				TargetAttributes = {
+					EA9B0E551ACD848700B176D6 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = RGDMP887DX;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+					EA9B0E6E1ACD848700B176D6 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EA9B0E551ACD848700B176D6;
+					};
+				};
+			};
+			buildConfigurationList = EA9B0E511ACD848700B176D6 /* Build configuration list for PBXProject "MIAChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA9B0E4D1ACD848700B176D6;
+			productRefGroup = EA9B0E571ACD848700B176D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA9B0E551ACD848700B176D6 /* MIAChat */,
+				EA9B0E6E1ACD848700B176D6 /* MIAChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA9B0E541ACD848700B176D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139C6D581ADDDDB0001FEFA2 /* vg_timer.png in Resources */,
+				139C6D511ADDDDB0001FEFA2 /* UnityAds.bundle in Resources */,
+				139C6D541ADDDDB0001FEFA2 /* vg_close.png in Resources */,
+				139C6D531ADDDDB0001FEFA2 /* __vungle.db in Resources */,
+				139C6D561ADDDDB0001FEFA2 /* vg_mute_off.png in Resources */,
+				139C6D551ADDDDB0001FEFA2 /* vg_cta.png in Resources */,
+				EA9B0E671ACD848700B176D6 /* Images.xcassets in Resources */,
+				EAACC9271ACEC584006400DA /* mkApp.bundle in Resources */,
+				EA9B0E6A1ACD848700B176D6 /* LaunchScreen.xib in Resources */,
+				EA9B0E651ACD848700B176D6 /* Main.storyboard in Resources */,
+				139C6D571ADDDDB0001FEFA2 /* vg_mute_on.png in Resources */,
+				139C6D4D1ADDDDB0001FEFA2 /* BDArenaConnector.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9B0E6D1ACD848700B176D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA9B0E521ACD848700B176D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963994BB1BA2CD0200FE5731 /* MIAChatViewController.m in Sources */,
+				966A1AE41BA2D2D800CA031A /* UIImageView+MIASDK.m in Sources */,
+				EA9B0E5C1ACD848700B176D6 /* main.m in Sources */,
+				EA9B0E5F1ACD848700B176D6 /* AppDelegate.m in Sources */,
+				EAACC9701ACEDF36006400DA /* MKCollection+Subscription.m in Sources */,
+				963994BC1BA2CD0200FE5731 /* MIAImageViewController.m in Sources */,
+				EAACC9731ACEE0F9006400DA /* MIAChatTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9B0E6B1ACD848700B176D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA9B0E711ACD848700B176D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA9B0E551ACD848700B176D6 /* MIAChat */;
+			targetProxy = EA9B0E701ACD848700B176D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA9B0E631ACD848700B176D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9B0E641ACD848700B176D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA9B0E681ACD848700B176D6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9B0E691ACD848700B176D6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA9B0E771ACD848700B176D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA9B0E781ACD848700B176D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA9B0E7A1ACD848700B176D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/advLib",
+					"$(PROJECT_DIR)/advLib/VungleSDK.embeddedframework",
+				);
+				INFOPLIST_FILE = MIAChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2",
+					"-lz",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.makeitapp.$(PRODUCT_NAME:rfc1034identifier:lower)";
+				PRODUCT_NAME = MIAChat;
+			};
+			name = Debug;
+		};
+		EA9B0E7B1ACD848700B176D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/advLib",
+					"$(PROJECT_DIR)/advLib/VungleSDK.embeddedframework",
+				);
+				INFOPLIST_FILE = MIAChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2",
+					"-lz",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.makeitapp.$(PRODUCT_NAME:rfc1034identifier:lower)";
+				PRODUCT_NAME = MIAChat;
+			};
+			name = Release;
+		};
+		EA9B0E7D1ACD848700B176D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MIAChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.makeitapp.$(PRODUCT_NAME:rfc1034identifier:lower)";
+				PRODUCT_NAME = MIAChatTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MIAChat.app/MIAChat";
+			};
+			name = Debug;
+		};
+		EA9B0E7E1ACD848700B176D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MIAChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.makeitapp.$(PRODUCT_NAME:rfc1034identifier:lower)";
+				PRODUCT_NAME = MIAChatTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MIAChat.app/MIAChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA9B0E511ACD848700B176D6 /* Build configuration list for PBXProject "MIAChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9B0E771ACD848700B176D6 /* Debug */,
+				EA9B0E781ACD848700B176D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9B0E791ACD848700B176D6 /* Build configuration list for PBXNativeTarget "MIAChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9B0E7A1ACD848700B176D6 /* Debug */,
+				EA9B0E7B1ACD848700B176D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9B0E7C1ACD848700B176D6 /* Build configuration list for PBXNativeTarget "MIAChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9B0E7D1ACD848700B176D6 /* Debug */,
+				EA9B0E7E1ACD848700B176D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA9B0E4E1ACD848700B176D6 /* Project object */;
+}
